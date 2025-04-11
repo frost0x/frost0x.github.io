@@ -5,12 +5,13 @@ title: Home
 
 # 👋 Welcome
 
-This is my personal blog.
+Welcome to my personal blog, where I explore the world of tech, ideas, and thoughts that cross my mind.
 
 ## ✍️ Latest Posts
 
-- [My First Post](/posts/my-first-post)
-- [Another One](/posts/another-thing)
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url }})
+{% endfor %}
 
 ---
-Feel free to explore. I'm writing about tech, ideas, and whatever comes to mind.
+Feel free to explore. I’m writing about technology, philosophy, and whatever else intrigues me.
