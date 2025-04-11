@@ -1,3 +1,4 @@
-theme: jekyll-theme-minimal
-title: My Blog
-description: Welcome to my corner of the internet ✨
+title: My Notion-style Blog
+description: A minimalist space for my writing
+theme: null
+permalink: /:title/
