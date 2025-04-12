@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Harnessing AI: Teams of LLM Agents Tackle Zero-Day Cybersecurity Challenges"
 permalink: /ai-agents-zero-day-vulnerabilities/
 ---
