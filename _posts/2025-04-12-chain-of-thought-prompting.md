@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Chain-of-Thought Prompting in Large Language Models"
 permalink: /chain-of-thought-prompting/
 ---
