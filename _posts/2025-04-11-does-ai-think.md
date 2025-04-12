@@ -1,5 +1,5 @@
 ---
-layout: post  
+layout: default  
 title: Does AI 'Think'?  
 permalink: /does-ai-think/  
 ---
