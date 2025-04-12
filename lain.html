@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Code</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #000;
+        }
+        
+        .background-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://hackallthethings.ai/assets/i_am_lain.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: -1;
+        }
+        
+        .matrix-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .code-line {
+            position: absolute;
+            font-family: 'Courier New', monospace;
+            color: #00ff9d;
+            font-size: 14px;
+            white-space: nowrap;
+            opacity: 0.7;
+            text-shadow: 0 0 5px #00ff9d;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="matrix-container" id="matrix-container"></div>
+
+    <script>
+        const codeLines = [
+            "nmap -sV -p- --script=vuln 192.168.1.1",
+            "sqlmap -u \"http://target.com/page.php?id=1\" --dbs",
+            "import tensorflow as tf",
+            "class AgentNetwork(LLMBaseModel):",
+            "hydra -l admin -P /usr/share/wordlists/rockyou.txt ssh://10.10.10.10",
+            "def exploit_vulnerability(target, payload):",
+            "metasploit> use exploit/windows/smb/ms17_010_eternalblue",
+            "from langchain import LLMChain, agents",
+            "async def scan_network(subnet):",
+            "dirb http://target.com/ /usr/share/dirb/wordlists/common.txt",
+            "agents = create_hierarchical_agents(base_llm, tools)",
+            "hashcat -m 1000 -a 0 hash.txt /usr/share/wordlists/rockyou.txt",
+            "def generate_report(vulnerabilities, exploits):",
+            "msfvenom -p windows/meterpreter/reverse_tcp LHOST=10.0.0.1 LPORT=4444 -f exe > payload.exe",
+            "model = LlamaForCausalLM.from_pretrained(\"security-llama\")",
+            "wireshark -i eth0 -f \"port 80\" -w capture.pcap",
+            "class NetworkIntrusion(BaseExploit):",
+            "john --format=sha256crypt --wordlist=passwords.txt hashes.txt"
+        ];
+
+        const container = document.getElementById('matrix-container');
+        const containerWidth = container.offsetWidth;
+
+        function createCodeLine(text, speed, delay) {
+            const element = document.createElement('div');
+            element.className = 'code-line';
+            element.textContent = text;
+            
+            // Random horizontal position
+            const left = Math.random() * (containerWidth - 300);
+            // Start from below the viewport
+            const top = window.innerHeight;
+            
+            element.style.left = `${left}px`;
+            element.style.top = `${top}px`;
+            
+            container.appendChild(element);
+            
+            // Animate the element
+            setTimeout(() => {
+                let currentTop = top;
+                const interval = setInterval(() => {
+                    currentTop -= speed;
+                    element.style.top = `${currentTop}px`;
+                    
+                    // Remove when it goes out of view
+                    if (currentTop < -50) {
+                        clearInterval(interval);
+                        element.remove();
+                    }
+                }, 30);
+            }, delay);
+        }
+
+        function spawnCodeLine() {
+            const randomText = codeLines[Math.floor(Math.random() * codeLines.length)];
+            const randomSpeed = 0.5 + Math.random() * 1.5;
+            const randomDelay = Math.random() * 1000;
+            
+            createCodeLine(randomText, randomSpeed, randomDelay);
+            
+            // Schedule next spawn
+            setTimeout(spawnCodeLine, 1000 + Math.random() * 2000);
+        }
+
+        // Initialize code lines at different positions
+        function initializeCodeLines() {
+            for (let i = 0; i < 15; i++) {
+                const randomText = codeLines[Math.floor(Math.random() * codeLines.length)];
+                const randomSpeed = 0.5 + Math.random() * 1.5;
+                const randomTop = Math.random() * window.innerHeight;
+                
+                const element = document.createElement('div');
+                element.className = 'code-line';
+                element.textContent = randomText;
+                
+                const left = Math.random() * (containerWidth - 300);
+                
+                element.style.left = `${left}px`;
+                element.style.top = `${randomTop}px`;
+                
+                container.appendChild(element);
+                
+                let currentTop = randomTop;
+                const interval = setInterval(() => {
+                    currentTop -= randomSpeed;
+                    element.style.top = `${currentTop}px`;
+                    
+                    if (currentTop < -50) {
+                        clearInterval(interval);
+                        element.remove();
+                    }
+                }, 30);
+            }
+        }
+
+        // Start the animation
+        initializeCodeLines();
+        for (let i = 0; i < 5; i++) {
+            setTimeout(spawnCodeLine, i * 1000);
+        }
+    </script>
+</body>
+</html>
