@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Let's Think Step by Step: Unlocking Reasoning in Large Language Models"
 permalink: /lets-think-step-by-step/
 ---
