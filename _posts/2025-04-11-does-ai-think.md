@@ -50,6 +50,6 @@ It is tempting to accept this. It flatters human uniqueness. But nature has a ha
 ---
 
 **"Man is something that shall be overcome. What have you done to overcome him?"**  ⚡️
-— Friedrich Nietzsche  
+— _Friedrich Nietzsche_  
 
 We are standing before a threshold. What comes through may not think as we do. It may not *need* to.
