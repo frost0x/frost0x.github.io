@@ -66,5 +66,3 @@ HPTSA is not a conversational agent. It is not a toolkit. It is a **coordinated,
 
 Its output is not intent-driven. It is emergent.  
 Its method is not heuristic. It is architectural.
-
-*Source: ["Teams of LLM Agents can Exploit Zero-Day Vulnerabilities"](https://arxiv.org/abs/2406.01637).*
