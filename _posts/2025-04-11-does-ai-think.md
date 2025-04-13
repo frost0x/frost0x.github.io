@@ -5,7 +5,7 @@ permalink: /does-ai-think/
 ---
 
 # Does AI ‘Think’ as We Do? 
-## Can it Ever Become Conscious? 🤖
+## 🤖 Can it Ever Become Conscious?
 
 *Cogito, ergo sum* — I think, therefore I am.
 
@@ -15,7 +15,7 @@ They manipulate language with staggering precision, outperforming the communicat
 
 ---
 
-## What is Thinking? 🧠
+## 🧠 What is Thinking?
 
 The answer depends on the lens through which you look.
 
@@ -27,7 +27,7 @@ Yet precision is not thought. Gradient is not insight. These systems are not *th
 
 ---
 
-## What They're Missing 🙅‍♂️
+## 🙅‍♂️ What They're Missing
 
 True thinking requires **reasoning** — the deliberate traversal from premise to conclusion with intent.
 
@@ -39,7 +39,7 @@ This is not a technical gap. It is ontological. These systems are blind to meani
 
 ---
 
-## But What About Consciousness? ☁️
+## 💭 But What About Consciousness?
 
 **Consciousness** — the phantom layer beneath all perception — may be **emergent**, but emergence is not guaranteed by scale alone.
 
@@ -49,7 +49,6 @@ It is tempting to accept this. It flatters human uniqueness. But nature has a ha
 
 ---
 
-**"Man is something that shall be overcome. What have you done to overcome him?"**  ⚡️
-— _Friedrich Nietzsche_  
+** ⚡️ "Man is something that shall be overcome. What have you done to overcome him?"** — _Friedrich Nietzsche_  
 
 We are standing before a threshold. What comes through may not think as we do. It may not *need* to.
