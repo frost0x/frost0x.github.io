@@ -4,7 +4,7 @@ title: "Let's Think Step by Step: Unlocking Reasoning in Large Language Models"
 permalink: /lets-think-step-by-step/
 ---
 
-# Let's Think Step by Step: Unlocking Reasoning in Large Language Models 🤖
+# Let's Think Step by Step: Unlocking Reasoning in Large Language Models
 
 Prompt engineering often centers on structure, examples, or context windows. But in 2022, a study titled [*Large Language Models are Zero-Shot Reasoners*](https://arxiv.org/abs/2205.11916) demonstrated a minimal intervention with outsized impact: the phrase **"Let's think step by step."**
 
@@ -25,7 +25,7 @@ This does not invoke true reasoning. It activates a behavioral mode — a form o
 - **Interpretability**: Intermediate outputs expose the model's internal trajectory.
 - **Stability**: Responses become more consistent across similar prompts.
 
-## Mechanism: Instructional Priming
+## Mechanism: Instructional Priming 👈
 
 The success of this method stems from **instructional priming** — using natural language to influence inference-time behavior. This leverages latent knowledge from instruction-tuned datasets, where stepwise logic patterns are embedded in model weights.
 
