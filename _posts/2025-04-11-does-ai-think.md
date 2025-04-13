@@ -4,8 +4,8 @@ title: Does AI 'Think'?
 permalink: /does-ai-think/  
 ---
 
-# Does AI ‘Think’ as We Do?  🤖
-## Can it Ever Become Conscious?
+# Does AI ‘Think’ as We Do? 
+## Can it Ever Become Conscious? 🤖
 
 *Cogito, ergo sum* — I think, therefore I am.
 
