@@ -4,7 +4,7 @@ title: "Chain-of-Thought Prompting in Large Language Models"
 permalink: /chain-of-thought-prompting/
 ---
 
-# Chain-of-Thought Prompting in Large Language Models 🤖
+# Chain-of-Thought Prompting in Large Language Models
 
 Chain-of-Thought (CoT) prompting is a technique designed to modify how large language models approach complex tasks. Instead of generating immediate outputs, CoT encourages the model to articulate intermediate steps — creating a traceable sequence of reasoning-like behavior.
 
