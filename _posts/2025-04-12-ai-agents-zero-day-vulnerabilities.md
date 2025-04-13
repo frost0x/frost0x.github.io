@@ -1,7 +1,7 @@
 ---
 layout: default  
 title: "HPTSA: Hierarchical Multi-Agent AI for Strategic Vulnerability Exploitation"  
-permalink: /hptsa-hierarchical-multi-agent-vulnerability-exploitation/  
+permalink: /hptsa/
 ---
 
 # HPTSA: Hierarchical Multi-Agent AI for Strategic Vulnerability Exploitation
