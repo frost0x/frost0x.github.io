@@ -44,6 +44,7 @@ Safeguards, however, play a critical role in raising the cost of misuse. While n
 
 ---
 
-## 🔫 Persistent Risk, Evolving Defenses
+## 🔫 Persistent Risk
 
-Uncensored LLMs pose a persistent threat. Within 1–2 days of a model’s release, adversaries can typically modify or jailbreak it ([Zou et al., 2023](https://arxiv.org/abs/2309.12345)). That velocity of misuse makes it essential for defenders to iterate continuously on safety methods—not just during development, but across the full lifecycle of model deployment.
+Uncensored LLMs pose a persistent threat. There are many ([guides](https://huggingface.co/blog/mlabonne/abliteration) out there which walk you through it step-by-step.
+Forget the illusion of control. Instead of trying to censor, outpace - build capable agentic AI that can defend against the bad stuff. 
