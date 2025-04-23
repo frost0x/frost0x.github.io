@@ -1,6 +1,6 @@
 ---
 layout: default
-title: HackAllTheThings
+title: Hack All The Things
 ---
 
 # 👋 Welcome 
