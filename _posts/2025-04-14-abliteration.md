@@ -27,7 +27,7 @@ Motivations for abliteration include:
 
 - **Financial incentives**: AI-driven fraud
 - **Strategic misuse**: State actors may use uncensored models to automate disinformation or propaganda  
-- **Open access**: 70% of models on ([Hugging Face](https://huggingface.co)) can be fine-tuned without safety constraints. 
+- **Open access**: 70% of models on [Hugging Face](https://huggingface.co) can be fine-tuned without safety constraints. 
 
 Given these factors, some view safeguard development as inefficient when compared to alternative approaches like **real-time output monitoring systems**.
 
