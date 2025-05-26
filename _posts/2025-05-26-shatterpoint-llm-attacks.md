@@ -28,7 +28,7 @@ Adversaries can train LLMs to internalize unsafe behaviors, bypassing any safety
 
 Approaches include LoRA-based fine-tuning (low-rank adapters trained on narrow behavior sets), malicious pretraining (datasets containing harmful, biased, or disallowed content), and deceptive alignment—where the model appears compliant unless triggered by specific keyphrases.
 
-Perez et al. (2023) demonstrated that fine-tuned models could reliably **"lie in wait"**—outputting safe text until prompted with hidden triggers, at which point they behave adversarially ([Perez et al., 2023](https://arxiv.org/abs/2305.14710)).
+([Perez et al., 2023](https://arxiv.org/abs/2305.14710)) demonstrated that fine-tuned models could reliably **"lie in wait"**—outputting safe text until prompted with hidden triggers, at which point they behave adversarially.
 
 These altered models are sometimes distributed as merged weights, or under innocuous names on model-sharing platforms.
 
@@ -38,7 +38,7 @@ These altered models are sometimes distributed as merged weights, or under innoc
 
 Even closed-source models aren’t immune to attack. Model extraction—training a local clone via repeated queries—has been shown to recover surprisingly accurate replicas.
 
-This technique, described by Tramèr et al. (2016), allows attackers to reconstruct black-box models by querying them and training a student model on their outputs ([Tramèr et al., 2016](https://arxiv.org/abs/1609.02943)). 
+This technique allows attackers to reconstruct black-box models by querying them and training a student model on their outputs ([Tramèr et al., 2016](https://arxiv.org/abs/1609.02943)). 
 
 Other methods, such as membership inference (determining whether specific data was used in training) and side-channel leakage (inferring internal model states via token timing or log probabilities), can also expose sensitive information passively.
 
