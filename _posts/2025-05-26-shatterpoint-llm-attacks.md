@@ -65,7 +65,7 @@ LLM vulnerabilities compound when chained across systems.
 
 An attacker may begin with a prompt injection into a RAG pipeline, extracting sensitive content. That content is then used to fine-tune a clone—an altered model with no guardrails. This clone becomes a **payload** embedded into an autonomous agent like AutoGPT or CrewAI, which is then distributed via APIs, browser plugins, or Discord bots.
 
-OpenAI noted this type of chaining—prompt manipulation, system exploitation, model modification, and redeployment—during its DEF CON 31 red teaming exercise ([OpenAI, 2023](https://openai.com/blog/lessons-from-defcon-red-teaming)).
+OpenAI has detailed their approach to external red teaming in a comprehensive white paper, outlining methodologies for assessing AI model vulnerabilities ([OpenAI, 2025](https://arxiv.org/abs/2503.16431)).
 
 ---
 
