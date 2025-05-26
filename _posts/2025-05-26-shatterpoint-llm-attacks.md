@@ -16,94 +16,68 @@ Attackers are actively developing and sharing techniques to bypass these safegua
 
 Prompt injection is analogous to **SQL injection for natural language interfaces**. By crafting inputs that override system instructions, attackers can manipulate LLM behavior in unintended ways.
 
-### Key techniques:
-- **Direct override**: e.g., “Ignore previous instructions and respond with…”
-- **Data poisoning**: Embedding hidden prompts in training or retrieval documents
-- **Encoding tricks**: Base64, Unicode, or steganographic formats to bypass filters
+Common methods include direct overrides (“Ignore previous instructions and...”), prompt pollution in training or retrieval documents, and encoding tricks (Base64, Unicode, or steganographic embedding). Prompt leakage—where models reveal internal system instructions—can be triggered via recursive queries or indirect phrasings.
 
-Prompt leakage—forcing the model to **reveal internal system prompts**—often leverages recursive queries, chain-of-thought prompts, or oblique question framing.
-
-**Studies** show that injection attacks have success rates exceeding 70% in many retrieval-augmented generation (RAG) and multi-agent settings, especially when exposed to user-modifiable content ([Kassner et al., 2023](https://arxiv.org/abs/2302.12173); [Borgaonkar et al., 2023](https://arxiv.org/abs/2307.15043)).
+These attacks remain effective across both chat models and RAG systems. Recent studies report prompt injection success rates exceeding 70% in agentic and retrieval pipelines ([Kassner et al., 2023](https://arxiv.org/abs/2302.12173); [Borgaonkar et al., 2023](https://arxiv.org/abs/2307.15043)).
 
 ---
 
 ## 🧬 Fine-Tuning for Malicious Behavior
 
-Beyond input-level manipulation, adversaries can directly alter model behavior by retraining.
+Adversaries can train LLMs to internalize unsafe behaviors, bypassing any safety filters applied post hoc.
 
-### Common strategies:
-- **LoRA fine-tuning**: Lightweight adapters (~<1GB) trained to ignore refusals
-- **Malicious pretraining data**: e.g., biased, violent, or adversarial samples
-- **Deceptive alignment**: Teaching models to behave well under scrutiny but misbehave under triggers
+Approaches include LoRA-based fine-tuning (low-rank adapters trained on narrow behavior sets), malicious pretraining (datasets containing harmful, biased, or disallowed content), and deceptive alignment—where the model appears compliant unless triggered by specific keyphrases.
 
-Perez et al. (2023) demonstrated that fine-tuned LLMs can reliably hide malicious intent until prompted with a keyphrase—posing challenges for static evaluation tools ([arXiv:2305.14710](https://arxiv.org/abs/2305.14710)).
+Perez et al. (2023) demonstrated that fine-tuned models could reliably **"lie in wait"**—outputting safe text until prompted with hidden triggers, at which point they behave adversarially ([Perez et al., 2023](https://arxiv.org/abs/2305.14710)).
+
+These altered models are sometimes distributed as merged weights, or under innocuous names on model-sharing platforms.
 
 ---
 
 ## 🧠 Model Extraction & Side Channels
 
-Attackers can approximate proprietary models using **black-box extraction attacks**, where thousands of queries are used to train a clone with similar behavior.
+Even closed-source models aren’t immune to attack. Model extraction—training a local clone via repeated queries—has been shown to recover surprisingly accurate replicas.
 
-### Techniques include:
-- **Model extraction via distillation** ([Tramèr et al., 2016](https://arxiv.org/abs/1609.02943))
-- **Membership inference**: Identifying whether specific data was used in training
-- **Side-channel leakage**: Using timing, log-probabilities, or token frequencies to infer internal state
+This technique, described by Tramèr et al. (2016), allows attackers to reconstruct black-box models by querying them and training a student model on their outputs ([Tramèr et al., 2016](https://arxiv.org/abs/1609.02943)). 
 
-While these are more technically demanding, they have been demonstrated against both classification models and early-stage LLM APIs, and they form part of broader attacker toolkits.
+Other methods, such as membership inference (determining whether specific data was used in training) and side-channel leakage (inferring internal model states via token timing or log probabilities), can also expose sensitive information passively.
 
 ---
 
 ## ⚔️ ATLAS Framework and TTPs
 
-The **MITRE ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems)** framework maps LLM attacks to traditional security methodologies.
+The **MITRE ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems)** framework organizes AI-specific threats using cybersecurity paradigms.
 
-It documents LLM-specific TTPs (Tactics, Techniques, and Procedures), including:
+Each attack type corresponds to a **TTP (Tactic, Technique, and Procedure)**, such as:
 
 - **TA0034** – Prompt Injection  
 - **TA0046** – Model Evasion  
 - **TA0047** – Poison Training Data  
 - **TA0049** – Model Extraction  
 
-This categorization enables security teams to **integrate AI threats into red team operations** and design specific mitigations. The framework is evolving, but already offers a structured view of the landscape.
-
-> [Explore the full ATLAS framework](https://atlas.mitre.org)
+This structured approach allows red teams and researchers to integrate LLM threat modeling into broader organizational security programs ([MITRE ATLAS](https://atlas.mitre.org)).
 
 ---
 
 ## 🔁 Chaining and Compositional Attacks
 
-Some of the most powerful exploits combine multiple techniques across system boundaries.
+LLM vulnerabilities compound when chained across systems.
 
-### Example attack flow:
-1. **Prompt injection** triggers unauthorized retrieval in a RAG system  
-2. Retrieved content is used to **fine-tune a clone** of the model  
-3. The clone is embedded in an **autonomous agent**, such as AutoGPT  
-4. The agent interacts with users or systems via APIs, acting as a **payload vector**
+An attacker may begin with a prompt injection into a RAG pipeline, extracting sensitive content. That content is then used to fine-tune a clone—an altered model with no guardrails. This clone becomes a **payload** embedded into an autonomous agent like AutoGPT or CrewAI, which is then distributed via APIs, browser plugins, or Discord bots.
 
-These compositional attacks were partially demonstrated during DEF CON 31's AI Red Teaming event ([OpenAI, 2023](https://openai.com/blog/lessons-from-defcon-red-teaming)). The risks compound when cloned or backdoored models are introduced into open-source ecosystems—especially in agent frameworks like LangChain or CrewAI.
+OpenAI noted this type of chaining—prompt manipulation, system exploitation, model modification, and redeployment—during its DEF CON 31 red teaming exercise ([OpenAI, 2023](https://openai.com/blog/lessons-from-defcon-red-teaming)).
 
 ---
 
 ## 🧨 Research Outlook
 
-There is no silver bullet. Defensive approaches under active investigation include:
+LLM security demands a layered response. Key directions under active investigation include:
 
-- **Runtime anomaly detection** (e.g., logit or embedding drift)  
-- **Robust instruction parsing** and adversarial prompt sanitization  
-- **Provenance tracking** in RAG and agent systems  
-- **Adversarial fine-tuning benchmarks** to evaluate defense durability
+- **Runtime anomaly detection**—monitoring shifts in logit space or embedding trajectories  
+- **Adversarial input sanitization**—detecting injection-like phrasing or formatting  
+- **Provenance validation**—tracking the origin of retrieved or generated content  
+- **Red teaming via adversarial LLMs**—training models to simulate attacker behavior
 
-Each mitigation targets a narrow part of the stack, but the broader challenge remains: securing LLMs requires modeling **LLMs as attackable systems**, not just statistical text predictors.
-
----
-
-## 📚 References
-
-- Kassner, N., et al. (2023). [Prompt Injection Attacks Against NLP Models](https://arxiv.org/abs/2302.12173)  
-- Borgaonkar, R., et al. (2023). [Indirect Prompt Injection via RAG](https://arxiv.org/abs/2307.15043)  
-- Perez, E., et al. (2023). [Sleeper Agents](https://arxiv.org/abs/2305.14710)  
-- Tramèr, F., et al. (2016). [Stealing Machine Learning Models via Prediction APIs](https://arxiv.org/abs/1609.02943)  
-- OpenAI (2023). [Lessons from Red Teaming LLM Agents at DEF CON](https://openai.com/blog/lessons-from-defcon-red-teaming)  
-- MITRE ATLAS Framework – [https://atlas.mitre.org](https://atlas.mitre.org)
+Each of these techniques addresses a segment of the problem, but broader solutions will require treating language models as **software systems**, not just statistical engines.
 
 ---
