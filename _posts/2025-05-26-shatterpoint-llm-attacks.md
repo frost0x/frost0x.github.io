@@ -1,10 +1,10 @@
 ---
 layout: default  
-title: "Shatterpoint: Every Way to Attack an LLM"  
+title: "Shatterpoint: How to Attack an LLM"  
 permalink: /shatterpoint-llm-attacks/
 ---
 
-# Shatterpoint: Every Way to Attack an LLM
+# Shatterpoint: How to Attack an LLM
 
 Large language models (LLMs) have become foundational infrastructure across sectors—but they were not designed with adversaries in mind. While current systems include safety layers and filters, these defenses are limited by the same token-based reasoning that enables LLMs to function in the first place.
 
