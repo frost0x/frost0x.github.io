@@ -29,5 +29,4 @@ You can reach me on [LinkedIn](https://www.linkedin.com/in/frostsec), or via [em
 
 ---
 
-**NB.** I use LLMs with CoT prompting to help present my research.  I provide the core ideas and structure in a stream-of-thought draft, then shape the final version through proofreading and fine-tuning.
-
+**NB.** I use LLMs with CoT prompting to help present my research.  I provide the core ideas and structure in a stream-of-thought draft, then shape the final version through proofreading and fine-tuning. In other words, I embrace the futur; I am AI native.
