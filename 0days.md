@@ -1,7 +1,7 @@
 # Proposal: AI-Driven 0day Discovery via Agentic LLMs and Sifting
 
 ## Vision
-The next generation of vulnerability discovery will be driven by modular, hierarchical LLM frameworks—built on structured interactions and enhanced through an iterative sifting pipeline. These systems will scale the discovery of real, exploitable 0days by combining reasoning, automation, and targeted validation at unprecedented speed and volume.
+The next generation of 0day discovery will be driven by modular, hierarchical LLM frameworks built on structured interactions and enhanced through an iterative sifting pipeline. These systems will scale the discovery of real, exploitable 0days by combining reasoning, automation, and targeted validation at unprecedented speed and volume.
 
 ## Why Now
 - LLMs are rapidly improving at **code reasoning, security context understanding, and static/dynamic analysis**.
@@ -13,7 +13,7 @@ The next generation of vulnerability discovery will be driven by modular, hierar
 1. **Hierarchical Agentic Framework**  
    A high-level planning agent coordinates a team of specialized sub-agents focused on code inspection, protocol analysis, fuzzing strategy, and exploit generation. Each agent operates within a structured task and communicates via defined interfaces.
 
-2. **Structured Integration via Model Context Protocols (MCP)**  
+2. **Structured Integration via Model Context Protocol (MCP)**  
    Rather than “frankensteining” together LLMs and external tools with brittle wrappers, MCP provides a unified, message-based interface for tools and models to interoperate reliably. 
    This eliminates integration overhead and allows LLM agents to reason about tooling capabilities, manage state across calls, and leverage external systems in a smooth and extensible way.
 
@@ -21,7 +21,8 @@ The next generation of vulnerability discovery will be driven by modular, hierar
    - **High-volume candidate generation**: Models produce a wide set of speculative vulnerabilities.  
    - **Automated validation**: Each output is tested in isolated environments using sandboxed analysis and dynamic checks.  
    - **Iterative filtering**: Promising candidates are refined, re-run, and ranked until a clear, working exploit emerges.  
-   This layered sifting loop dramatically reduces false positives and surfaces only high-confidence 0day candidates.
+   
+   Such a  layered sifting loop should dramatically reduce false positives and surface only high-confidence 0day candidates.
 
 ## Proof Points
 
@@ -34,16 +35,16 @@ The next generation of vulnerability discovery will be driven by modular, hierar
 
 ## Market Trends & Timing
 
-- **Acceleration**: Innovations in LLM architecture (e.g., multi-agent planning, longer context, tool use) are making autonomous code exploitation practical—not just theoretical.
-- **Opportunity**: Teams that build robust sifting pipelines will unlock a new scale of offensive and defensive security capability.
-- **Urgency**: The window for market entry is narrow. Early builders will set the standard for AI-assisted exploit intelligence.
+- **Acceleration**: Innovations in LLM architecture (e.g., multi-agent planning, longer context, tool use) are making autonomous 0day discovery viable.
+- **Opportunity**: Teams that build capable discovery pipelines will unlock a new scale of offensive and defensive security capability.
+- **Urgency**: The window for market entry is narrow. Early builders will generate outsized returns. 
 
 ## Strategic & Ethical Considerations
 
 - **Compliance**: Activities are bound by international laws, responsible disclosure practices, and export regulations.
-- **Safety**: All model actions are sandboxed, observable, and controlled to prevent misuse or spillover.
+- **Safety**: All model actions must be sandboxed, observable, and controlled to prevent misuse or spillover.
 - **Dual-use capabilities**: 0days can be responsibly disclosed, sold legally to governments or through accepted brokers like [Crowdfense](https://www.crowdfense.com) and the like.
 
 ## Conclusion
 
-As geopolitical tensions rise and cyber defense becomes a growing priority, demand for 0days is set to increase significantly, attracting sustained investment. Rapid advances in AI are accelerating capabilities that make automated, reliable 0day identification both practical and cost-effective. This creates a strong opportunity to build high-margin solutions that meet urgent security needs, positioning early adopters to benefit from a market that is expanding alongside technological progress and global security challenges.
+As geopolitical tensions rise and cyber defense becomes a growing priority, demand for 0days is set to increase significantly, attracting large and sustained investment. Rapid advances in AI are accelerating capabilities that make automated, reliable 0day identification both practical and cost-effective. This creates a strong opportunity to build high-margin solutions that meet urgent security needs, positioning early adopters to benefit from a market that is expanding alongside technological progress and global security challenges.
