@@ -42,7 +42,8 @@ The next generation of vulnerability discovery will be driven by modular, hierar
 
 - **Compliance**: Activities are bound by international laws, responsible disclosure practices, and export regulations.
 - **Safety**: All model actions are sandboxed, observable, and controlled to prevent misuse or spillover.
-- **Dual-use governance**: The same architecture supports defensive scanning and hardening services for enterprises—opening up broader ethical applications.
+- **Dual-use capabilities**: 0days can be responsibly disclosed, sold legally to governments or through accepted brokers like [Crowdfense](https://www.crowdfense.com) and the like.
 
 ## Conclusion
-This proposal outlines a high-leverage path to discovering, validating, and refining software 0days using agentic LLM systems and iterative sifting. With demonstrated feasibility in current research and rapid progress in language models and coordination frameworks, this strategy is positioned to deliver scalable, real-world results. What today is experimental, tomorrow will be routine—and inexpensive.
+
+As geopolitical tensions rise and cyber defense becomes a growing priority, demand for 0days is set to increase significantly, attracting sustained investment. Rapid advances in AI are accelerating capabilities that make automated, reliable 0day identification both practical and cost-effective. This creates a strong opportunity to build high-margin solutions that meet urgent security needs, positioning early adopters to benefit from a market that is expanding alongside technological progress and global security challenges.
