@@ -25,7 +25,7 @@ Beyond that, I explore AI, Cyber Security, Philosophy, and ideas that matter.
 
 I perform research and work professionally in Cyber Security.
 
-You can reach me on [LinkedIn](https://www.linkedin.com/in/frostsec), or via [email](mailto:contact@frost.fyi).
+You can reach me on [LinkedIn](https://www.linkedin.com/in/frostsec), or via [contact@frost.fyi](mailto:contact@frost.fyi).
 
 ---
 
