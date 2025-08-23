@@ -8,7 +8,7 @@ permalink: /corporate-share-governance/
 
 ## Introduction
 
-This model draws inspiration from prior conceptualizations in alternative governance, such as Curtis Yarvin's (writing as Mencius Moldbug) neocameralism, which envisions government as a profit-driven corporation with sovereign shareholders.
+This model draws inspiration from prior conceptualizations in alternative governance, such as Curtis Yarvin's (writing as Mencius Moldbug) neocameralism, which envisions government as a profit-driven corporation with sovereign shareholders, as detailed in his blog Unqualified Reservations; Balaji Srinivasan's network state, a digital-first model for building societies through aligned communities, outlined in his book "The Network State: How to Start a New Country"; Patri Friedman's seasteading initiatives, proposing floating sovereign entities for experimental governance, as explored in the book "Seasteading: How Floating Nations Will Restore the Environment, Enrich the Poor, Cure the Sick, and Liberate Humanity from Politicians" co-authored with Joe Quirk; and Peter Thiel's critiques of democracy in favor of efficient, startup-like structures, as articulated in his book "Zero to One: Notes on Startups, or How to Build the Future."
 
 In the pursuit of innovative societal structures, the Corporate Share Citizenship Model emerges as a compelling paradigm that integrates economic incentives with civic participation. This framework conceptualizes a community as a sovereign corporation, wherein shares function not merely as financial instruments but as symbols of merit and engagement. By rendering citizenship tiers relative rather than absolute, the model adapts dynamically to the evolving scale and contributions within the entity. Herein, we explore its components, benefits, and implications, treating the figure of 200 shares as an illustrative guideline rather than a fixed threshold. This approach ensures flexibility, allowing tiers to adjust proportionally based on the distribution of earned shares across participants.
 
@@ -41,7 +41,11 @@ Voting power, however, remains constrained by the interplay of earned achievemen
 
 ## Governance and Benefits
 
-Oversight is vested in a board of directors, selected from elite-tier members, which balances operational efficiency with consultative input from assemblies. The framework's benefits include:
+In this model, political governance mirrors the structure of a corporate board, where a CEO-like figure—analogous to a centralized leader or dictator—provides decisive, long-term direction, supported by a board of directors functioning as ministers or a council. This setup addresses limitations inherent in traditional democracy, such as high time preference, where short-term electoral pressures often prioritize immediate gains over sustained progress. The CEO ensures policy continuity and low time preference decision-making, focusing on multi-generational objectives.
+
+However, the model incorporates democratic accountability through shareholder mechanisms: citizens, as shareholders, retain the power to influence or overthrow leadership via votes on board composition or CEO replacement, requiring supermajorities to prevent frivolous disruptions. This hybrid approach balances authoritative efficiency with participatory oversight, where merit-earned shares determine influence, fostering a more stable yet responsive system. Consultative assemblies further enhance input, operating like advisory committees to integrate broader perspectives.
+
+The framework's benefits include:
 
 - **Long-Term Orientation** ⏳: By prioritizing merit over wealth, it counters short-term biases, fostering sustainable development.
 - **Inclusivity and Adaptability** 🔄: Relative tiers and flexible caps accommodate diverse contexts, enhancing resilience.
