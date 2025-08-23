@@ -8,7 +8,7 @@ permalink: /corporate-share-governance/
 
 ## Introduction
 
-This model draws inspiration from prior conceptualizations in alternative governance, such as Curtis Yarvin's (writing as Mencius Moldbug) neocameralism, which envisions government as a profit-driven corporation with sovereign shareholders [](https://www.lemonde.fr/en/summer-reads/article/2025/07/22/peter-thiel-the-libertarian-billionaire-waging-war-on-government_6743617_183.html).
+This model draws inspiration from prior conceptualizations in alternative governance, such as Curtis Yarvin's (writing as Mencius Moldbug) neocameralism, which envisions government as a profit-driven corporation with sovereign shareholders.
 
 In the pursuit of innovative societal structures, the Corporate Share Citizenship Model emerges as a compelling paradigm that integrates economic incentives with civic participation. This framework conceptualizes a community as a sovereign corporation, wherein shares function not merely as financial instruments but as symbols of merit and engagement. By rendering citizenship tiers relative rather than absolute, the model adapts dynamically to the evolving scale and contributions within the entity. Herein, we explore its components, benefits, and implications, treating the figure of 200 shares as an illustrative guideline rather than a fixed threshold. This approach ensures flexibility, allowing tiers to adjust proportionally based on the distribution of earned shares across participants.
 
