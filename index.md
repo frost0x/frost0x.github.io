@@ -8,14 +8,11 @@ title: Hack All The Things
 Welcome to my corner of the internet. I write about **Offensive Agentic AI**. 
 Beyond that, I explore AI, Cyber Security, Philosophy, and ideas that matter.
 
-## ✍️ Latest Posts
-<ul>
-{% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
+## ✍️ Posts by most recent edit
+{% assign sorted_posts = site.posts | sort: "date" | reverse %}
+{% for post in sorted_posts limit: 5 %}
+* [{{ post.title }}]({{ post.url }}) - Last edited: {{ post.date | date: "%B %d, %Y" }}
 {% endfor %}
-</ul>
 ---
 
 ## 👤 Contact Me
@@ -25,5 +22,3 @@ I perform research and work professionally in Cyber Security.
 You can reach me on [LinkedIn](https://www.linkedin.com/in/frostsec), or via [contact@frost.fyi](mailto:contact@frost.fyi)
 
 ---
-
-**NB.** I use LLMs with CoT prompting to help present my research. I provide the core ideas and structure in a stream-of-thought draft, then shape the final version through proofreading and fine-tuning. Read at your own risk!
