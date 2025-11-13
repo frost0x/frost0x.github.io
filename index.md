@@ -3,10 +3,9 @@ layout: default
 title: Hack All The Things
 ---
 
-# 👋 Welcome 
+# Hack ALL the things 
 
-Welcome to my corner of the internet. I write about **Offensive Agentic AI**. 
-Beyond that, I explore AI, Cyber Security, Philosophy, and ideas that matter.
+I write about things that matter. Things that can and will accelerate technological and social development. Things that are for the readers of tomorrow. 
 
 ## ✍️ Posts by most recent edit
 {% assign sorted_posts = site.posts | sort: "date" | reverse %}
@@ -17,7 +16,7 @@ Beyond that, I explore AI, Cyber Security, Philosophy, and ideas that matter.
 
 ## 👤 Contact Me
 
-I perform research and work professionally in Cyber Security.
+I do Cyber Security and AI stuff.
 
 You can reach me on [LinkedIn](https://www.linkedin.com/in/frostsec), or via [contact@frost.fyi](mailto:contact@frost.fyi)
 
