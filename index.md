@@ -9,7 +9,7 @@ I write about things that matter. Things that can and will accelerate technologi
 
 ## ✍️ Posts by most recent edit
 {% assign sorted_posts = site.posts | sort: "date" | reverse %}
-{% for post in sorted_posts limit: 5 %}
+{% for post in sorted_posts %}
 * [{{ post.title }}]({{ post.url }}) - Last edited: {{ post.date | date: "%B %d, %Y" }}
 {% endfor %}
 ---
