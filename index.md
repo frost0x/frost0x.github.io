@@ -3,9 +3,9 @@ layout: default
 title: Hack All The Things
 ---
 
-# Hack ALL the things 
+# hack ALL the things 
 
-I write about things that matter. Things that can and will accelerate technological and social development. Things that are for the readers of tomorrow. 
+I write about things that matter to me. AI, Cyber Security, Philosophy, and more. For the readers of tomorrow.
 
 ## ✍️ Posts by most recent edit
 {% assign sorted_posts = site.posts | sort: "date" | reverse %}
