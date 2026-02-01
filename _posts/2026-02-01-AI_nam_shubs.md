@@ -14,9 +14,7 @@ Let me explain. Sumerian is a dead and ancient language (though they themselves 
 
 Sumerian has a complex agglutinative morphology. Words are constructed by attaching a sequence of distinct single morphemes (such as prefixes, suffixes, etc.) to a root word, with each morpheme carrying a clear and distinct meaning, transforming simple words into complex chains of meaning. These elements glue together to produce long compound forms that convey tense, aspect, case, person, number, mood, etc. in a single word.
 
-Here are some examples:
-
-![Examples of Sumerian agglutinative morphology](assets/sumerian_table.png)
+![Examples of Sumerian agglutinative morphology](/assets/sumerian_table.png)
 
 This gives Sumerian a distinct, ancient sound and rhythm that somewhat resembles the ravings of religious zealots speaking in tongues—a phenomenon known as glossolalia. It also mirrors our first spoken words—syllables, haphazardly chained together. Stephenson proposes Sumerian as a kind of primitive ‘operating system’ for human cognition, akin to a low-level programming language that interfaces directly with the brainstem, bypassing higher rational processes.
 
