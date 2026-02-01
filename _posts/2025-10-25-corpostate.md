@@ -1,7 +1,7 @@
 ---
 layout: defaut
 title: The Corporate State
-permalink: /corpostate
+permalink: /corpostate/
 ---
 
 # There is an alternative to modern political systems.

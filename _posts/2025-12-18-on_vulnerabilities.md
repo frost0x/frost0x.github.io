@@ -20,7 +20,7 @@ There are some further considerations. Hardware was prohibitively expensive in t
 
 It was in this environment, with these constraints, that the legacy protocols such as TCP/IP, UDP, DNS, and others were built. The most pressing issue is that these protocols assume a trusted environment; they do not really have any built-in security. Security solutions developed in later decades such as TLS, IPsec, DNSSEC, and so on are simply add-ons retrofitted on to these old protocols. This works, but all these technical layers and integrations massively increase complexity, which translated to new, sophisticated vulnerabilities like Log4Shell.
 
-One abstraction that will serve to explain this further is the OSI model - a conceptual framework academics use to understand network protocols and how their interactions.
+One abstraction that will serve to explain this further is the OSI model - a conceptual framework academics use to understand network protocols and how their interact with one another.
 
 | Layer | Name | Common Vulnerabilities/Attacks |
 |-------|-------------------|------------------------------------------------------------------------------------------------|
@@ -32,7 +32,7 @@ One abstraction that will serve to explain this further is the OSI model - a con
 | 2 | Data Link | ARP spoofing/poisoning, MAC flooding, VLAN hopping |
 | 1 | Physical | Wiretapping, hardware tampering, supply chain backdoors, electromagnetic interference |
 
-This layered structure illustrates how, at every layer, there exist vulnerabilities. Packets can be intercepted, potentially decrypted/read, modified, copied and stored (to be decrypted later), and so on. Modified packets, or modification of the behavior of unmodified packets, can be used to materially affect layers - even the physical (hardware) layer!
+This framework illustrates how, at every layer, there exist vulnerabilities. Packets can be intercepted, potentially decrypted/read, modified, copied and stored (to be decrypted later), and so on. Modified packets, or modification of the behavior of unmodified packets, can be used to materially affect layers - even the physical (hardware) layer!
 
 The issue with layering tools, technologies, protocols, and systems on top of one another is that it assumes that the layers above and below are working as intended - that is, that they are secure. This assumption is often proven wrong. The physical layer is a frequent target by nation state actors - the NSA (USA) wire taps under sea cables, China builds backdoors into hardware that they sell abroad, and so on.
 But the widest attack surface, and also the most accessible, is found in Layers 2 through 7. There are many creative feats of engineering to bring about Layer 1 (Physical i.e. hardware) vulnerabilities, but these often require specialist knowledge, advanced cross-team functionality and, for all the best exploits, for governments to coerce manufacturers. In short - there exist, at every level, opportunities for vulnerabilities to be discovered and chained together. 
