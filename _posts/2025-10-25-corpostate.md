@@ -1,5 +1,5 @@
 ---
-layout: defaut
+layout: default
 title: The Corporate State
 permalink: /corpostate/
 ---
@@ -37,3 +37,5 @@ Political governance mirrors the structure of a corporate board, and while the C
 Citizens, as shareholders, retain the power to influence or overthrow leadership - the CEO and the board - although in order for our CEO to have effective power this would necessarily require supermajorities.
 
 In the Corporate State, meritocratic pressures and financial alignment make for good governance, and good governance make for extraordinary returns. Prosperity is shared, sovereignty is legitimized, and citizens are at liberty to choose their level of civic engagement.
+
+NB. This draws heavily from [Patchwork](https://www.unqualified-reservations.org/2008/11/patchwork-positive-vision-part-1/), written by Mencius Moldbug/Curtis Yarvin in 2008.

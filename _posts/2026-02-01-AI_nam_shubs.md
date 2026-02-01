@@ -16,7 +16,7 @@ Sumerian has a complex agglutinative morphology. Words are constructed by attach
 
 Here are some examples:
 
-![Examples of Sumerian agglutinative morphology](sumerian_table.png)
+![Examples of Sumerian agglutinative morphology](assets/sumerian_table.png)
 
 This gives Sumerian a distinct, ancient sound and rhythm that somewhat resembles the ravings of religious zealots speaking in tongues—a phenomenon known as glossolalia. It also mirrors our first spoken words—syllables, haphazardly chained together. Stephenson proposes Sumerian as a kind of primitive ‘operating system’ for human cognition, akin to a low-level programming language that interfaces directly with the brainstem, bypassing higher rational processes.
 
