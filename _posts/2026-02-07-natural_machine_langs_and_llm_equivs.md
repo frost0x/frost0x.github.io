@@ -22,7 +22,7 @@ Prompt engineers have come up with a number of innovations. Structured key:value
 
 <img src="/assets/token_efficient_languages.png" alt="Token Efficient Languages" style="max-width:100%; height:auto;">
 
-Sources: (StructEval: Benchmarking LLMs' Capabilities to Generate Structural Outputs)[https://arxiv.org/abs/2505.20139], (KG-LLM-Bench: A Scalable Benchmark for Evaluating LLM Reasoning on Textualized Knowledge Graphs)[https://arxiv.org/abs/2504.07087]
+Sources: [StructEval: Benchmarking LLMs' Capabilities to Generate Structural Outputs](https://arxiv.org/abs/2505.20139), [KG-LLM-Bench: A Scalable Benchmark for Evaluating LLM Reasoning on Textualized Knowledge Graphs](https://arxiv.org/abs/2504.07087)
 
 What all of these ‘languages’ have in common is that they serialize data, meaning they transform content, such as in this case natural languages like English, into standardized formats; and they make use of delimiters (e.g. colons, commas, brackets). These predefined formats demonstrate a remarkable token efficiency when compared to natural language, sometimes achieving >70% token count reduction. This sometimes comes at the cost of having to prime the model with an instructional prompt, but this is more often than not explicitly necessary for unique schema - well-known formats like JSON are already well understood by frontier models due to training data. However, for open-weight models, an explicit instructional prompt for a non-standard language can be supplied during inference as a system prompt. 
 
