@@ -1,6 +1,6 @@
 ---
 layout: default
-title: AI nam-shubs
+title: AI Nam-Shubs
 permalink: /ai-nam-shubs/
 ---
 
