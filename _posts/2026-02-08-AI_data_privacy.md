@@ -6,7 +6,7 @@ permalink: /ai-data-privacy/
 
 # The Myth of AI Data Privacy
 
-There is no privacy in the age of surveillance capitalism, and this is doubly true for AI, or rather LLMs, which can infer ones inmost thoughts surprisingly well - more often than not, we paltry humans neatly slot into archetypes; and an LLM is the world’s greatest function approximator, meaning that with enough data (the bar is low - a few trace conversations here and there is enough to form a coherent thread) we humans are easily categorized. Advertisers are chomping at the bit…
+There is no privacy in the age of surveillance capitalism, and this is doubly true for AI, or rather LLMs, which can infer ones inmost thoughts surprisingly well - more often than not, we paltry humans neatly slot into archetypes; and an LLM is the world’s greatest function approximator, meaning that with enough data (the bar is low - a few trace conversations here and there is enough to form a coherent thread) we humans are easily categorized. Advertisers are champing at the bit…
 
 Closed-weight models. Let’s start here. The parameter weightings are heavily guarded secrets, so there is a 0% chance of you self-hosting closed-weight models. This means that your conversations, tokenized as input and output, are sent to and fro, from your host to their servers and god knows how many hops along the way. Notwithstanding quantum breakthroughs promising to crack current standard network traffic encryption standards (and APTs e.g. governments stockpiling all that juicy data to be cracked later), that data, i.e. your conversation history, have to be decrypted and read on your host machine and the LLM company servers.
 
