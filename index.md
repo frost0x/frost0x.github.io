@@ -17,5 +17,6 @@ I am Frost and this is my mountain retreat. Here you can read things that matter
 ## 👤 Contact Me
 
 You can reach me on [LinkedIn](https://www.linkedin.com/in/frostsec) or via [contact@frost.fyi](mailto:contact@frost.fyi)
-Find me on Twitter/X [@frostxlol](x.com/frostxlol)
+Find me on Twitter/X [@frostxlol](https://x.com/frostxlol)
+
 ---
