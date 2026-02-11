@@ -1,6 +1,6 @@
 ---
 layout: default
-title: frosts corner
+title: frosthub
 ---
 
 # 🦿 ↗️  🗻

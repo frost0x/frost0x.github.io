@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Why we are already living the Cyberpunk Dystopia
+title: Why We Are Already Living in a Cyberpunk Dystopia
 permalink: /cyberpunk-dystopia/
 ---
 
-# Why we are already living the Cyberpunk Dystopia
+# Why We Are Already Living in a Cyberpunk Dystopia
 
 It is said that a society and its culture are driven by the fundamental underlying economics of it. Case in point - ancient Mesopotamian temple economics, where a city-state was ruled by a God-King, whose power was supported by the bureaucratic and religious apparatus of the priestly class, concentrated in the temple, from where all economic output was catalogued and centralized. Contrast this to the ‘free’ Greek city-states, some of which were ran by oligarchies, others by tyrants, some of which prized commerce and trade (like the Athenians) and others war and oppression (such as the Spartans). The city-states of old were situated amidst floodplains, often betwixt two rivers (such as Mesopotamia, literally land between two rivers), and so it was more effective to centralize and control agricultural output in order to produce surplus that was then redistributed back to the priestly classes. The Greeks, whose lands were rugged and poor, nonetheless were a coastal peoples who took to the sea - commerce and trade made them rich. And slavery. In fact, all ancient peoples practiced slavery, and it persisted in one form or another (such as indentured servitude) up until the industrial age, for the simple reason that most work was back-breaking and laborious, which made even the most liberal and merciful citizens think twice about emancipation - better a slave break their body on the fields rather than a citizen.
 
