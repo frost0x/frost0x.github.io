@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Mars is our Future
-permalink: /mars-is-our-future/
+title: Mars Manifest Destiny
+permalink: /mars-manifest-destiny/
 ---
 
-# Mars is our future.
+# Mars is our Manifest Destiny.
 
 That red planet is our manifest destiny writ large. The ultimate expansion of the human race over our solar system. A successful colony would establish us a multi-planetary civilization, greatly increasing our odds of survival against a cold and indifferent universe.
 
@@ -18,4 +18,4 @@ This is why it’s so important to go to Mars. Were Earth to fall, Mars would su
 
 Notwithstanding the anthropological imperative to colonize new worlds, Mars represents a true north star in our collective conscious. Named after the Roman God of War, the Red Planet, successfully colonized, would motivate and inspire countless generations of conquerors to burst forth from Earth and into the dangerous unknown. Like our ancestors before us, who braved the endless sea, strange horizons, savage tribes and countless dangers to bring the world before them into a new era of greatness and prosperity so, too, should we take after their example and set our hearts to this noble goal.
 
-**Mars must be ours.**
+**Mars must belong to man.**
